@@ -3,7 +3,6 @@ function addTask() {
   const taskText = taskInput.value.trim();
 
   if (taskText === "") {
-    alert("Please enter a task.");
     return;
   }
 
@@ -32,3 +31,4 @@ document.getElementById("taskInput").addEventListener("keydown", function (event
     addTask();
   }
 });
+
